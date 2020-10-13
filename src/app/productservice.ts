@@ -92,7 +92,7 @@ export class ProductService {
     }
 
     generateName() {
-        return this.productNames[Math.floor(Math.random() * Math.floor(30))];
+        return this.productNames[Math.floor(Math.random() * Math.floor(200))];
     }
 
     generatePrice() {
